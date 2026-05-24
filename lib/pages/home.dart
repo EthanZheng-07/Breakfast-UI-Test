@@ -98,7 +98,7 @@ class _HomePageState extends State<HomePage> {
                             ),
                           ),
                           Text(
-                            popularDiets[index].level + ' | ' + popularDiets[index].duration + ' | ' + popularDiets[index].calorie,
+                            '${popularDiets[index].level} | ${popularDiets[index].duration} | ${popularDiets[index].calorie}',
                             style: TextStyle(
                               color: Color(0xff786F72),
                               fontSize: 13,
